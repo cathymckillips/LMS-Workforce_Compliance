@@ -1,0 +1,33 @@
+-- SQL create a view example --
+
+CREATE VIEW dbo.vw_EmployeeTraining
+AS
+
+SELECT
+    l.Assignment_ID,
+
+    e.Employee_ID,
+    e.Full_Name,
+    e.Department,
+    e.Location,
+    e.Job_Title,
+    e.Employment_Status,
+
+    c.Course_ID,
+    c.Course_Name,
+    c.Course_Category,
+    c.Required_Flag,
+
+    l.Assigned_Date,
+    l.Due_Date,
+    l.Completion_Date,
+    l.Training_Status,
+    l.Score
+
+FROM dbo.LMS_Training_Assignments AS l
+
+LEFT JOIN dbo.Employees_HR AS e
+    ON l.Employee_ID = e.Employee_ID
+
+LEFT JOIN dbo.Course_Catalog AS c
+    ON l.Course_ID = c.Course_ID;

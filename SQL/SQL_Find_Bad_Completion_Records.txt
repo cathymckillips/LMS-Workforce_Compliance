@@ -1,0 +1,12 @@
+--SQL Query - Find Bad Completion Records --
+
+SELECT
+    Assignment_ID,
+    Employee_ID,
+    Course_ID,
+    Assigned_Date,
+    Completion_Date,
+    Training_Status
+FROM dbo.LMS_Training_Assignments
+WHERE Training_Status = 'Completed'
+  AND Completion_Date IS NULL;

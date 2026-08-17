@@ -1,0 +1,171 @@
+--SQL Query - Code to create view for Data Quality Issues --
+--Created View--
+
+CREATE VIEW dbo.vw_DataQualityIssues
+AS
+
+/* ==========================================================
+   1. MISSING PARTY ID
+   ========================================================== */
+
+SELECT
+    e.Employee_ID,
+    'Missing Party ID' AS Issue_Type,
+    'HR' AS Source_System,
+    'High' AS Severity,
+    'Research employee identity and assign Party ID' AS Recommended_Action
+FROM dbo.Employees_HR AS e
+WHERE e.Party_ID IS NULL
+   OR LTRIM(RTRIM(e.Party_ID)) = ''
+
+
+UNION ALL
+
+
+/* ==========================================================
+   2. MISSING DEPARTMENT
+   ========================================================== */
+
+SELECT
+    e.Employee_ID,
+    'Missing Department' AS Issue_Type,
+    'HR' AS Source_System,
+    'Medium' AS Severity,
+    'Validate employee department against workforce system' AS Recommended_Action
+FROM dbo.Employees_HR AS e
+WHERE e.Department IS NULL
+   OR LTRIM(RTRIM(e.Department)) = ''
+
+
+UNION ALL
+
+
+/* ==========================================================
+   3. DUPLICATE EMPLOYEE RECORD
+   ========================================================== */
+
+SELECT
+    e.Employee_ID,
+    'Duplicate Employee Record' AS Issue_Type,
+    'HR' AS Source_System,
+    'High' AS Severity,
+    'Review duplicate employee records and identify master record' AS Recommended_Action
+FROM dbo.Employees_HR AS e
+GROUP BY
+    e.Employee_ID
+HAVING COUNT(*) > 1
+
+
+UNION ALL
+
+
+/* ==========================================================
+   4. LMS EMPLOYEE NOT FOUND IN HR
+   ========================================================== */
+
+SELECT DISTINCT
+    l.Employee_ID,
+    'LMS Employee Not Found In HR' AS Issue_Type,
+    'Saba' AS Source_System,
+    'High' AS Severity,
+    'Validate employee ID or merge LMS account with master employee record'
+        AS Recommended_Action
+FROM dbo.LMS_Training_Assignments AS l
+
+LEFT JOIN dbo.Employees_HR AS e
+    ON l.Employee_ID = e.Employee_ID
+
+WHERE e.Employee_ID IS NULL
+
+
+UNION ALL
+
+
+/* ==========================================================
+   5. DUPLICATE TRAINING ASSIGNMENT
+   ========================================================== */
+
+SELECT
+    l.Employee_ID,
+    'Duplicate Training Assignment' AS Issue_Type,
+    'Saba' AS Source_System,
+    'Medium' AS Severity,
+    'Review duplicate LMS assignments and remove duplicate record if appropriate'
+        AS Recommended_Action
+FROM dbo.LMS_Training_Assignments AS l
+
+GROUP BY
+    l.Employee_ID,
+    l.Course_ID,
+    l.Assigned_Date
+
+HAVING COUNT(*) > 1
+
+
+UNION ALL
+
+
+/* ==========================================================
+   6. COMPLETED TRAINING MISSING COMPLETION DATE
+   ========================================================== */
+
+SELECT DISTINCT
+    l.Employee_ID,
+    'Completed Training Missing Completion Date' AS Issue_Type,
+    'Saba' AS Source_System,
+    'High' AS Severity,
+    'Validate LMS completion record and restore completion date'
+        AS Recommended_Action
+FROM dbo.LMS_Training_Assignments AS l
+
+WHERE l.Training_Status = 'Completed'
+  AND l.Completion_Date IS NULL
+
+
+UNION ALL
+
+
+/* ==========================================================
+   7. COMPLETION DATE BEFORE ASSIGNMENT DATE
+   ========================================================== */
+
+SELECT DISTINCT
+    l.Employee_ID,
+    'Completion Date Before Assignment Date' AS Issue_Type,
+    'Saba' AS Source_System,
+    'High' AS Severity,
+    'Validate LMS assignment and completion dates'
+        AS Recommended_Action
+FROM dbo.LMS_Training_Assignments AS l
+
+WHERE l.Completion_Date IS NOT NULL
+  AND l.Completion_Date < l.Assigned_Date
+
+
+UNION ALL
+
+
+/* ==========================================================
+   8. ACTIVE TRAINING ASSIGNED TO TERMINATED EMPLOYEE
+   ========================================================== */
+
+SELECT DISTINCT
+    e.Employee_ID,
+    'Active Training Assigned To Terminated Employee' AS Issue_Type,
+    'Saba' AS Source_System,
+    'Medium' AS Severity,
+    'Review workforce status and deactivate unnecessary LMS assignments'
+        AS Recommended_Action
+FROM dbo.Employees_HR AS e
+
+INNER JOIN dbo.LMS_Training_Assignments AS l
+    ON e.Employee_ID = l.Employee_ID
+
+WHERE e.Employment_Status = 'Terminated'
+
+AND l.Training_Status IN
+(
+    'Not Started',
+    'In Progress',
+    'Overdue'
+);

@@ -1,0 +1,21 @@
+--SQL Query - create historical reporting view --
+CREATE VIEW dbo.vw_WeeklyComplianceHistory
+AS
+
+SELECT
+    Snapshot_ID,
+    Report_Date,
+    Department,
+    Location,
+    Employee_Count,
+    Total_Assignments,
+    Completed_Count,
+    Overdue_Count,
+    In_Progress_Count,
+    Not_Started_Count,
+    Due_Next_30_Days,
+    Average_Score,
+    Compliance_Rate,
+    Load_Timestamp
+
+FROM dbo.Weekly_Compliance_History;

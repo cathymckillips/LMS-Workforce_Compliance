@@ -1,0 +1,12 @@
+--SQL QUERY - confirm SQL Server assigned datatype--
+
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Course_Catalog'
+  AND COLUMN_NAME = 'Required_Flag';
+
+SELECT DISTINCT
+    Required_Flag
+FROM dbo.Course_Catalog;

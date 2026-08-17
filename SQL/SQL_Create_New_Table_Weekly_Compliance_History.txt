@@ -1,0 +1,25 @@
+--SQL to create new table for weekly compliance history--
+
+CREATE TABLE dbo.Weekly_Compliance_History
+(
+    Snapshot_ID INT IDENTITY(1,1) PRIMARY KEY,
+
+    Report_Date DATE NOT NULL,
+
+    Department NVARCHAR(100) NULL,
+    Location NVARCHAR(100) NULL,
+
+    Employee_Count INT NULL,
+    Total_Assignments INT NULL,
+    Completed_Count INT NULL,
+    Overdue_Count INT NULL,
+    In_Progress_Count INT NULL,
+    Not_Started_Count INT NULL,
+    Due_Next_30_Days INT NULL,
+
+    Average_Score DECIMAL(6,2) NULL,
+    Compliance_Rate DECIMAL(6,2) NULL,
+
+    Load_Timestamp DATETIME2 NOT NULL
+        DEFAULT SYSDATETIME()
+);

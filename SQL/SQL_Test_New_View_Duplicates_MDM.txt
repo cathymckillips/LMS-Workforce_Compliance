@@ -1,0 +1,8 @@
+--SQL Query - Test new view results--
+
+SELECT *
+FROM dbo.vw_MDM_DuplicateReview
+ORDER BY
+    Review_Priority,
+    Party_ID,
+    Master_Record_Flag DESC;

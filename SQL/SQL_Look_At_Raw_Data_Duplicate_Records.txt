@@ -1,0 +1,12 @@
+-- SQL Query - look at actual records (raw data) --
+
+SELECT *
+FROM dbo.Employees_HR
+WHERE Employee_ID IN
+(
+    SELECT Employee_ID
+    FROM dbo.Employees_HR
+    GROUP BY Employee_ID
+    HAVING COUNT(*) > 1
+)
+ORDER BY Employee_ID;

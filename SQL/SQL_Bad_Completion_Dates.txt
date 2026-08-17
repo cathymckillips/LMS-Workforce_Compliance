@@ -1,0 +1,11 @@
+--SQL Query - Bad Completion Dates--
+
+  SELECT
+    Assignment_ID,
+    Employee_ID,
+    Course_ID,
+    Assigned_Date,
+    Completion_Date,
+    Training_Status
+FROM dbo.LMS_Training_Assignments
+WHERE Completion_Date < Assigned_Date;

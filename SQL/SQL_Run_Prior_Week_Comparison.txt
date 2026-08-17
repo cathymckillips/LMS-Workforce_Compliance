@@ -1,0 +1,22 @@
+--SQL Query Run Prior-Week Comparisons-
+SELECT
+    Report_Date,
+    Department,
+    Location,
+    Compliance_Rate,
+
+    LAG(Compliance_Rate) OVER
+    (
+        PARTITION BY Department, Location
+        ORDER BY Report_Date
+    ) AS Prior_Week_Compliance,
+
+    Compliance_Rate
+    -
+    LAG(Compliance_Rate) OVER
+    (
+        PARTITION BY Department, Location
+        ORDER BY Report_Date
+    ) AS WoW_Compliance_Change
+
+FROM dbo.Weekly_Compliance_History;

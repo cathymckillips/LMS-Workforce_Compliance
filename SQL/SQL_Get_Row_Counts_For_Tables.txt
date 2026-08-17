@@ -1,0 +1,39 @@
+--SQL Query to get row counts for each table --
+
+SELECT 'Employees_HR' AS Employees_HR, COUNT(*) AS Total_Rows
+FROM dbo.Employees_HR
+
+UNION ALL
+
+SELECT 'Course_Catalog', COUNT(*)
+FROM dbo.Course_Catalog
+
+UNION ALL
+
+SELECT 'LMS_Training_Assignments', COUNT(*)
+FROM dbo.LMS_Training_Assignments
+
+UNION ALL
+
+SELECT 'MDM_Party_ID', COUNT(*)
+FROM dbo.MDM_Party_ID
+
+UNION ALL
+
+SELECT 'Data_Quality_Issues', COUNT(*)
+FROM dbo.Data_Quality_Issues
+
+UNION ALL
+
+SELECT 'Data_Quality_Summary', COUNT(*)
+FROM dbo.Data_Quality_Summary
+
+UNION ALL
+
+SELECT 'Weekly_Compliance_Report', COUNT(*)
+FROM dbo.Weekly_Compliance_Report
+
+UNION ALL
+
+SELECT 'Data_Dictionary', COUNT(*)
+FROM dbo.Data_Dictionary;

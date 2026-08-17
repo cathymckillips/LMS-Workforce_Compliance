@@ -1,0 +1,9 @@
+--SQL QUERY - examples using views to write commands --
+
+SELECT *
+FROM dbo.vw_EmployeeTraining;
+
+SELECT *
+FROM dbo.vw_EmployeeTraining
+WHERE Department = 'Nursing'
+  AND Training_Status = 'Overdue';

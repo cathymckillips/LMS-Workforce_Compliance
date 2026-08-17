@@ -1,0 +1,13 @@
+--SQL QUERY - To identify Character Max Length --
+SELECT
+    Employee_ID,
+    Course_ID,
+    Assigned_Date,
+    COUNT(*) AS Assignment_Count
+FROM dbo.LMS_Training_Assignments
+GROUP BY
+    Employee_ID,
+    Course_ID,
+    Assigned_Date
+HAVING COUNT(*) > 1
+ORDER BY Assignment_Count DESC;

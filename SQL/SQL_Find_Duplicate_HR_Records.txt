@@ -1,0 +1,9 @@
+--SQL Query for finding Duplicate HR Records --
+
+SELECT
+    Employee_ID,
+    COUNT(*) AS Record_Count
+FROM dbo.Employees_HR
+GROUP BY Employee_ID
+HAVING COUNT(*) > 1
+ORDER BY Record_Count DESC;

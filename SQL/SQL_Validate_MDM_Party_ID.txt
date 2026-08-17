@@ -1,0 +1,10 @@
+--SQL Query - Validate MDM Party IDs --
+
+SELECT
+    Party_ID,
+    COUNT(*) AS Party_Record_Count
+FROM dbo.MDM_Party_ID
+WHERE Party_ID IS NOT NULL
+GROUP BY Party_ID
+HAVING COUNT(*) > 1
+ORDER BY Party_Record_Count DESC;

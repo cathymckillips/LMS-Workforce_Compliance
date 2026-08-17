@@ -1,0 +1,8 @@
+--SQL Query - Actual Rows stored in database--
+
+SELECT
+    Report_Date,
+    COUNT(*) AS Snapshot_Rows
+FROM dbo.Weekly_Compliance_History
+GROUP BY Report_Date
+ORDER BY Report_Date DESC;

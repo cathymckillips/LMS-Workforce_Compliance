@@ -1,0 +1,29 @@
+--SQL Query - Term Employees with Active Training dates--
+
+
+SELECT
+    e.Employee_ID,
+    e.Full_Name,
+    e.Department,
+    e.Employment_Status,
+    e.Termination_Date,
+    l.Course_ID,
+    l.Training_Status,
+    l.Due_Date
+FROM dbo.Employees_HR AS e
+
+INNER JOIN dbo.LMS_Training_Assignments AS l
+    ON e.Employee_ID = l.Employee_ID
+
+WHERE e.Employment_Status = 'Terminated'
+
+AND l.Training_Status IN
+(
+    'Not Started',
+    'In Progress',
+    'Overdue'
+)
+
+ORDER BY
+    e.Employee_ID,
+    l.Due_Date;

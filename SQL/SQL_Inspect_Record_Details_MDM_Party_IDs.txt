@@ -1,0 +1,12 @@
+-- SQL Query - Inspect details of MDM Party IDs --
+SELECT
+    Employee_ID,
+    Party_ID,
+    Duplicate_Flag,
+    Merge_Status,
+    Master_Record_Flag,
+    Review_Date
+FROM dbo.MDM_Party_ID
+WHERE Duplicate_Flag = 'Yes'
+   OR Merge_Status = 'Needs Review'
+ORDER BY Party_ID;

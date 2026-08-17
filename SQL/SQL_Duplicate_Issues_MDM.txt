@@ -1,0 +1,12 @@
+--SQL QUERY - Duplicate Issues MDM--
+SELECT
+    Issue_Type,
+    Review_Priority,
+    COUNT(*) AS Record_Count
+FROM dbo.vw_MDM_DuplicateReview
+GROUP BY
+    Issue_Type,
+    Review_Priority
+ORDER BY
+    Review_Priority,
+    Issue_Type;

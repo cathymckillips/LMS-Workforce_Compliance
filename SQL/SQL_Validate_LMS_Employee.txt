@@ -1,0 +1,14 @@
+--SQL Query - Validate LMS Employees against HR --
+
+SELECT
+    l.Employee_ID,
+    COUNT(*) AS LMS_Record_Count
+FROM dbo.LMS_Training_Assignments AS l
+
+LEFT JOIN dbo.Employees_HR AS e
+    ON l.Employee_ID = e.Employee_ID
+
+WHERE e.Employee_ID IS NULL
+
+GROUP BY l.Employee_ID
+ORDER BY l.Employee_ID;

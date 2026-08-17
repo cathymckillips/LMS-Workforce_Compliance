@@ -1,0 +1,10 @@
+--SQL QUERY - Find Missing Departments --
+
+SELECT
+    Employee_ID,
+    Full_Name,
+    Department,
+    Location
+FROM dbo.Employees_HR
+WHERE Department IS NULL
+   OR LTRIM(RTRIM(Department)) = '';

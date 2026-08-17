@@ -1,0 +1,9 @@
+--SQL Query - Validation MDM Duplicates Record Count --
+SELECT
+    Party_ID,
+    COUNT(*) AS Record_Count
+FROM dbo.vw_MDM_DuplicateReview
+WHERE Party_ID IS NOT NULL
+GROUP BY Party_ID
+HAVING COUNT(*) > 1
+ORDER BY Record_Count DESC;

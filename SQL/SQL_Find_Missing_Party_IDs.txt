@@ -1,0 +1,11 @@
+--SQL Query - To Find Missing Party IDs -
+
+SELECT
+    Employee_ID,
+    Full_Name,
+    Department,
+    Location,
+    Party_ID
+FROM dbo.Employees_HR
+WHERE Party_ID IS NULL
+   OR LTRIM(RTRIM(Party_ID)) = '';

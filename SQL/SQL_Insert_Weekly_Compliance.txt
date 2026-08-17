@@ -1,0 +1,33 @@
+--SQL Code to insert weekly compliance history--
+
+INSERT INTO dbo.Weekly_Compliance_History
+(
+    Report_Date,
+    Department,
+    Location,
+    Employee_Count,
+    Total_Assignments,
+    Completed_Count,
+    Overdue_Count,
+    In_Progress_Count,
+    Not_Started_Count,
+    Due_Next_30_Days,
+    Average_Score,
+    Compliance_Rate
+)
+
+SELECT
+    Report_Date,
+    Department,
+    Location,
+    Employee_Count,
+    Total_Assignments,
+    Completed_Count,
+    Overdue_Count,
+    In_Progress_Count,
+    Not_Started_Count,
+    Due_Next_30_Days,
+    Average_Score,
+    Compliance_Rate
+
+FROM dbo.vw_WeeklyCompliance;
