@@ -243,15 +243,15 @@ The report was designed with a consistent enterprise-style layout, page navigati
 
 ---
 ### 1️⃣ Training Compliance Overview
-
+**Purpose:** Monitor required training, compliance gaps, and upcoming deadlines
 Provides an executive-level view of workforce training compliance.
 
 #### Key KPIs
 
 - Active Employees
 - Required Assignments
-- Compliance Rate
 - Overdue Assignments
+- Compliance Rate
 - Due Next 30 Days
 - Average Training Score
 
@@ -259,11 +259,8 @@ Provides an executive-level view of workforce training compliance.
 
 The page also provides visibility into:
 
-- Compliance by department
-- Compliance by location
+- Compliance Rate by department
 - Training status
-- Upcoming training deadlines
-- Weekly compliance trends
 
 ---
 
@@ -277,43 +274,55 @@ This page provides drill-down analysis from:
 
 Key metrics include:
 
+- Active Employees
 - Required Assignments
-- Completed Assignments
 - Overdue Assignments
-- Due Next 30 Days
 - Compliance Rate
+- Due Next 30 Days
+- Average Training Score
 
 The page allows analysts to move from high-level compliance results to the specific courses and employees driving compliance gaps.
 
 ---
 
-### 3️⃣ Data Quality & Exceptions
+### 3️⃣ Data Quality 
+**Purpose:** Identify workforce and LMS records requiring investigations or correction.
 
-Designed as an analyst workbench for identifying and troubleshooting data-integrity issues.
 
 #### Key KPIs
 
-- Total Data Quality Issues
-- High Severity Issues
-- Medium Severity Issues
+- Total Issues
+- High Severity
+- Medium Severity
 - Affected Employees
 
 #### Analysis
 
 Issues can be analyzed by:
 
-- Issue type
-- Department
-- Source system
-- Severity
+- Issue by Type
+- Issue by Department
+
+---
+
+### 4️⃣ Data Exceptions
+**Purpose:** Identify and troubleshooting data integrity issues.
+
+#### Key KPIs
+
+- Total Issues
+- High Severity
+- Medium Severity
+- Affected Employees
+
+#### Analysis
 
 A detailed **Exception Work Queue** provides the individual records requiring investigation and the recommended action for each issue.
 
 ---
 
-### 4️⃣ MDM Duplicate Review
-
-Operational reporting page supporting Party ID duplicate and merge investigation.
+### 5️⃣ MDM Duplicate Review
+**Purpose:** Prioritize Party ID duplicate and records requiring merge review
 
 #### Key KPIs
 
@@ -321,36 +330,11 @@ Operational reporting page supporting Party ID duplicate and merge investigation
 - Duplicate Party IDs
 - High Priority Reviews
 - Needs Merge Review
+- High Priority %
 
 #### Analysis
 
-Records can be analyzed by:
-
-- Review priority
-- Merge status
-- Issue type
-- Department
-- Location
-
-The **MDM Review Work Queue** provides detailed records for analyst follow-up.
-
----
-
-### 5️⃣ Report Documentation
-
-Provides business and technical documentation for the reporting solution.
-
-Includes:
-
-- Data sources
-- Business definitions
-- KPI definitions
-- Reporting logic
-- Data flow
-- Refresh process
-- Workflow documentation
-
-This page helps technical and non-technical stakeholders understand how the report operates and how metrics are defined.
+A detailed **MDM Review Work Queue** provides detailed records for analyst follow-up.
 
 ---
 
