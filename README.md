@@ -235,7 +235,10 @@ The final Power BI solution contains **six report pages, including one hidden su
 The report was designed with a consistent enterprise-style layout, page navigation, KPI cards, analytical visuals, operational work queues, and documentation.
 
 ---
+---
+![LMS Workforce Compliance](images/TC.jpg)
 
+---
 ### 1️⃣ Training Compliance Overview
 
 Provides an executive-level view of workforce training compliance.
