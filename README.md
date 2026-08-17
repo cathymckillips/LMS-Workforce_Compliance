@@ -234,12 +234,6 @@ The final Power BI solution contains **six report pages, including one hidden su
 
 The report was designed with a consistent enterprise-style layout, page navigation, KPI cards, analytical visuals, operational work queues, and documentation.
 
-![Training Compliance Overview](Images/TC.jpg)
-![Training Compliance Overview](Images/CTD.jpg)
-![Training Compliance Overview](Images/DQ.jpg)
-![Training Compliance Overview](Images/DQD.jpg)
-![Training Compliance Overview](Images/DE.jpg)
-![Training Compliance Overview](Images/MDM.jpg)
 
 ---
 ### 1️⃣ Training Compliance Overview
