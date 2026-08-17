@@ -317,7 +317,6 @@ Issues can be analyzed by:
 #### Analysis
 
 A detailed **Exception Work Queue** provides the individual records requiring investigation and the recommended action for each issue.
-
 ---
 
 ### 5️⃣ MDM Duplicate Review
