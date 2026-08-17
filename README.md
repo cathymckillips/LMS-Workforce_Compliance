@@ -261,7 +261,6 @@ The page also provides visibility into:
 
 - Compliance Rate by department
 - Training status
-
 ---
 
 ### 2️⃣ Compliance & Training Detail
