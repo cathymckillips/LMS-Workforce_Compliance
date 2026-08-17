@@ -1,0 +1,13 @@
+File_Name,Column_Name,Business_Definition
+Employees_HR.csv,Employee_ID,Unique workforce employee identifier
+Employees_HR.csv,Party_ID,Master Data Management Party identifier
+Employees_HR.csv,Department,Employee department
+Employees_HR.csv,Location,Employee healthcare facility or work location
+Course_Catalog.csv,Course_ID,Unique LMS course identifier
+Course_Catalog.csv,Required_Flag,Indicates whether training is required
+LMS_Training_Assignments.csv,Assignment_ID,Unique LMS training assignment identifier
+LMS_Training_Assignments.csv,Training_Status,"Completed, In Progress, Not Started, or Overdue"
+MDM_Party_ID.csv,Duplicate_Flag,Identifies possible duplicate Party ID records
+MDM_Party_ID.csv,Merge_Status,Status of MDM duplicate review process
+Data_Quality_Issues.csv,Issue_Type,Data validation issue identified during QA
+Weekly_Compliance_Report.csv,Compliance_Rate,Percentage of assigned training marked completed

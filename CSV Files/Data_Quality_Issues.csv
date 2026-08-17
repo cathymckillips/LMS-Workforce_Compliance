@@ -1,0 +1,268 @@
+Issue_ID,Employee_ID,Issue_Type,Source_System,Severity,Issue_Status,Detected_Date,Recommended_Action
+DQ00001,E01136,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00002,E00271,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00003,E02679,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00004,E00481,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00005,E02664,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00006,E00181,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00007,E00114,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00008,E01244,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00009,E02356,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00010,E01347,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00011,E02678,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00012,E00377,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00013,E00895,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00014,E00415,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00015,E02269,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00016,E02657,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00017,E00910,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00018,E02756,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00019,E02012,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00020,E01212,Missing Party ID,HR,High,Open,2026-08-13,Research employee identity and assign Party ID
+DQ00021,E01171,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00022,E02270,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00023,E02019,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00024,E00044,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00025,E01737,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00026,E02774,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00027,E02084,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00028,E02994,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00029,E00559,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00030,E01965,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00031,E02040,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00032,E02110,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00033,E02807,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00034,E02773,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00035,E02181,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00036,E02859,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00037,E00511,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00038,E01661,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00039,E00057,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00040,E02525,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00041,E00779,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00042,E00030,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00043,E02926,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00044,E01741,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00045,E02878,Missing Department,HR,Medium,Open,2026-08-13,Validate employee department against workforce system
+DQ00046,E00032,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00047,E00106,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00048,E00357,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00049,E00562,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00050,E00585,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00051,E00611,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00052,E01000,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00053,E01274,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00054,E01381,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00055,E01805,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00056,E01857,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00057,E01921,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00058,E02564,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00059,E02692,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00060,E02741,Duplicate Employee Record,HR,High,Open,2026-08-13,Review duplicate employee records and identify master record
+DQ00061,UNKNOWN001,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00062,UNKNOWN002,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00063,UNKNOWN003,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00064,UNKNOWN004,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00065,UNKNOWN005,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00066,UNKNOWN006,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00067,UNKNOWN007,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00068,UNKNOWN008,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00069,UNKNOWN009,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00070,UNKNOWN010,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00071,UNKNOWN011,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00072,UNKNOWN012,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00073,UNKNOWN013,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00074,UNKNOWN014,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00075,UNKNOWN015,LMS Employee Not Found In HR,Saba,High,Open,2026-08-13,Validate employee ID or merge LMS account with master employee record
+DQ00076,E00356,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00077,E00492,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00078,E00526,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00079,E00545,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00080,E00695,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00081,E00869,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00082,E00883,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00083,E00903,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00084,E00916,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00085,E00983,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00086,E01171,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00087,E01268,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00088,E01419,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00089,E01545,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00090,E01724,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00091,E02340,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00092,E02382,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00093,E02619,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00094,E02627,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00095,E02829,Duplicate Training Assignment,Saba,Medium,Open,2026-08-13,Review duplicate LMS assignments and remove duplicate record if appropriate
+DQ00096,E00535,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00097,E00568,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00098,E00607,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00099,E00774,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00100,E00987,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00101,E01584,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00102,E01868,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00103,E01942,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00104,E02011,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00105,E02324,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00106,E02343,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00107,E02472,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00108,E02514,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00109,E02779,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00110,E02811,Completed Training Missing Completion Date,Saba,High,Open,2026-08-13,Validate LMS completion record and restore completion date
+DQ00111,E00329,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00112,E00457,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00113,E00477,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00114,E00628,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00115,E01035,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00116,E01210,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00117,E01676,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00118,E01989,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00119,E02079,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00120,E02277,Completion Date Before Assignment Date,Saba,High,Open,2026-08-13,Validate LMS assignment and completion dates
+DQ00121,E00002,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00122,E00012,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00123,E00035,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00124,E00051,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00125,E00070,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00126,E00140,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00127,E00141,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00128,E00155,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00129,E00242,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00130,E00248,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00131,E00249,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00132,E00262,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00133,E00306,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00134,E00314,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00135,E00325,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00136,E00367,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00137,E00391,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00138,E00412,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00139,E00413,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00140,E00442,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00141,E00447,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00142,E00470,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00143,E00472,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00144,E00479,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00145,E00489,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00146,E00499,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00147,E00500,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00148,E00519,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00149,E00532,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00150,E00533,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00151,E00541,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00152,E00662,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00153,E00676,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00154,E00679,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00155,E00706,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00156,E00718,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00157,E00811,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00158,E00933,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00159,E00999,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00160,E01012,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00161,E01024,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00162,E01055,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00163,E01062,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00164,E01075,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00165,E01089,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00166,E01102,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00167,E01105,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00168,E01122,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00169,E01172,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00170,E01198,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00171,E01210,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00172,E01221,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00173,E01229,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00174,E01239,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00175,E01278,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00176,E01325,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00177,E01334,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00178,E01335,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00179,E01371,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00180,E01383,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00181,E01389,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00182,E01425,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00183,E01426,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00184,E01428,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00185,E01441,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00186,E01465,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00187,E01467,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00188,E01545,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00189,E01551,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00190,E01585,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00191,E01592,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00192,E01617,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00193,E01624,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00194,E01639,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00195,E01665,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00196,E01682,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00197,E01699,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00198,E01701,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00199,E01716,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00200,E01719,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00201,E01728,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00202,E01755,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00203,E01757,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00204,E01774,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00205,E01801,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00206,E01816,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00207,E01828,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00208,E01831,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00209,E01865,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00210,E01890,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00211,E01907,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00212,E01913,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00213,E01955,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00214,E01997,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00215,E02021,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00216,E02034,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00217,E02079,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00218,E02092,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00219,E02110,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00220,E02123,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00221,E02125,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00222,E02166,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00223,E02201,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00224,E02214,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00225,E02244,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00226,E02275,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00227,E02315,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00228,E02326,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00229,E02409,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00230,E02416,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00231,E02428,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00232,E02433,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00233,E02435,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00234,E02452,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00235,E02461,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00236,E02472,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00237,E02486,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00238,E02499,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00239,E02504,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00240,E02528,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00241,E02556,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00242,E02577,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00243,E02626,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00244,E02637,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00245,E02647,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00246,E02695,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00247,E02702,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00248,E02734,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00249,E02737,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00250,E02739,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00251,E02766,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00252,E02783,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00253,E02789,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00254,E02790,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00255,E02792,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00256,E02799,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00257,E02804,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00258,E02806,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00259,E02837,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00260,E02844,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00261,E02863,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00262,E02907,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00263,E02914,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00264,E02928,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00265,E02939,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00266,E02980,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments
+DQ00267,E02986,Active Training Assigned To Terminated Employee,Saba,Medium,Open,2026-08-13,Review workforce status and deactivate unnecessary LMS assignments

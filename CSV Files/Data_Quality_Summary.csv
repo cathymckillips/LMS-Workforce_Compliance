@@ -1,0 +1,9 @@
+Issue_Type,Severity,Source_System,Issue_Count,Report_Date
+Active Training Assigned To Terminated Employee,Medium,Saba,147,2026-08-13
+Completed Training Missing Completion Date,High,Saba,15,2026-08-13
+Completion Date Before Assignment Date,High,Saba,10,2026-08-13
+Duplicate Employee Record,High,HR,15,2026-08-13
+Duplicate Training Assignment,Medium,Saba,20,2026-08-13
+LMS Employee Not Found In HR,High,Saba,15,2026-08-13
+Missing Department,Medium,HR,25,2026-08-13
+Missing Party ID,High,HR,20,2026-08-13

@@ -1,0 +1,31 @@
+Course_ID,Course_Name,Course_Category,Required_Flag,Renewal_Frequency_Months,Estimated_Duration_Minutes,Active_Flag
+C001,HIPAA Privacy,Compliance,Yes,12,45,Yes
+C002,HIPAA Security,Security,Yes,24,45,Yes
+C003,Cybersecurity Awareness,Security,Yes,12,30,Yes
+C004,Workplace Safety,Safety,Yes,12,30,Yes
+C005,Infection Prevention,Clinical,Yes,12,60,Yes
+C006,Bloodborne Pathogens,Safety,No,12,30,Yes
+C007,Patient Privacy,Compliance,No,12,45,Yes
+C008,Emergency Preparedness,Safety,Yes,12,30,Yes
+C009,Workplace Violence Prevention,Safety,Yes,12,15,Yes
+C010,Code of Conduct,Compliance,Yes,36,45,Yes
+C011,Information Security,Security,Yes,12,30,Yes
+C012,Diversity and Inclusion,HR,Yes,36,15,Yes
+C013,Patient Safety,Clinical,Yes,24,60,Yes
+C014,Medication Safety,Clinical,Yes,24,15,Yes
+C015,Clinical Documentation,Clinical,Yes,12,15,Yes
+C016,Fire Safety,Safety,Yes,36,45,Yes
+C017,Fraud Waste and Abuse,Compliance,Yes,12,30,Yes
+C018,Harassment Prevention,HR,Yes,12,15,Yes
+C019,Ethics and Compliance,Compliance,Yes,12,30,Yes
+C020,Data Privacy,Security,Yes,12,45,Yes
+C021,Phishing Awareness,Security,Yes,12,15,Yes
+C022,Incident Reporting,Clinical,Yes,12,45,Yes
+C023,Hazard Communication,Safety,Yes,24,20,Yes
+C024,Patient Rights,Compliance,Yes,12,60,Yes
+C025,Quality Improvement,Clinical,Yes,36,20,Yes
+C026,LMS New Hire Orientation,HR,Yes,24,15,Yes
+C027,Leadership Essentials,Leadership,No,24,15,Yes
+C028,Manager Compliance Training,Leadership,Yes,12,90,Yes
+C029,Annual Safety Review,Safety,Yes,12,20,Yes
+C030,Healthcare Compliance Refresher,Compliance,Yes,24,45,Yes

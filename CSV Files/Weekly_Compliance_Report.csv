@@ -1,0 +1,97 @@
+Department,Location,Total_Assignments,Completed,Overdue,In_Progress,Not_Started,Compliance_Rate,Report_Date
+Clinical Operations,Cancer Center,314,257,51,3,3,81.85,2026-08-13
+Clinical Operations,Central Medical Center,286,224,56,2,4,78.32,2026-08-13
+Clinical Operations,Children's Hospital,238,184,50,0,4,77.31,2026-08-13
+Clinical Operations,North Hospital,299,225,63,5,6,75.25,2026-08-13
+Clinical Operations,Outpatient Center A,242,192,47,0,3,79.34,2026-08-13
+Clinical Operations,Outpatient Center B,299,231,64,2,2,77.26,2026-08-13
+Clinical Operations,South Hospital,231,188,35,5,3,81.39,2026-08-13
+Clinical Operations,West Hospital,274,202,64,3,5,73.72,2026-08-13
+Emergency Services,Cancer Center,295,229,56,4,6,77.63,2026-08-13
+Emergency Services,Central Medical Center,191,144,43,3,1,75.39,2026-08-13
+Emergency Services,Children's Hospital,209,159,46,2,2,76.08,2026-08-13
+Emergency Services,North Hospital,243,183,51,2,7,75.31,2026-08-13
+Emergency Services,Outpatient Center A,239,185,45,4,5,77.41,2026-08-13
+Emergency Services,Outpatient Center B,226,178,44,2,2,78.76,2026-08-13
+Emergency Services,South Hospital,239,181,50,5,3,75.73,2026-08-13
+Emergency Services,West Hospital,239,183,50,2,4,76.57,2026-08-13
+Facilities,Cancer Center,233,180,49,3,1,77.25,2026-08-13
+Facilities,Central Medical Center,208,154,47,5,2,74.04,2026-08-13
+Facilities,Children's Hospital,219,163,47,3,6,74.43,2026-08-13
+Facilities,North Hospital,261,198,54,5,4,75.86,2026-08-13
+Facilities,Outpatient Center A,202,162,34,2,4,80.2,2026-08-13
+Facilities,Outpatient Center B,219,181,33,2,3,82.65,2026-08-13
+Facilities,South Hospital,235,185,42,4,4,78.72,2026-08-13
+Facilities,West Hospital,278,208,65,1,4,74.82,2026-08-13
+Finance,Cancer Center,209,162,43,4,0,77.51,2026-08-13
+Finance,Central Medical Center,225,170,48,2,5,75.56,2026-08-13
+Finance,Children's Hospital,147,109,33,2,3,74.15,2026-08-13
+Finance,North Hospital,238,181,52,0,5,76.05,2026-08-13
+Finance,Outpatient Center A,284,222,58,1,3,78.17,2026-08-13
+Finance,Outpatient Center B,207,162,39,3,3,78.26,2026-08-13
+Finance,South Hospital,220,169,46,1,4,76.82,2026-08-13
+Finance,West Hospital,225,162,59,1,3,72.0,2026-08-13
+Human Resources,Cancer Center,197,149,41,5,2,75.63,2026-08-13
+Human Resources,Central Medical Center,226,168,47,6,5,74.34,2026-08-13
+Human Resources,Children's Hospital,229,176,45,2,6,76.86,2026-08-13
+Human Resources,North Hospital,230,180,46,1,3,78.26,2026-08-13
+Human Resources,Outpatient Center A,257,193,58,3,3,75.1,2026-08-13
+Human Resources,Outpatient Center B,247,181,62,3,1,73.28,2026-08-13
+Human Resources,South Hospital,192,141,45,4,2,73.44,2026-08-13
+Human Resources,West Hospital,246,199,43,1,3,80.89,2026-08-13
+Information Technology,Cancer Center,274,204,64,0,6,74.45,2026-08-13
+Information Technology,Central Medical Center,309,241,58,0,10,77.99,2026-08-13
+Information Technology,Children's Hospital,260,198,53,3,6,76.15,2026-08-13
+Information Technology,North Hospital,199,146,47,3,3,73.37,2026-08-13
+Information Technology,Outpatient Center A,272,215,54,2,1,79.04,2026-08-13
+Information Technology,Outpatient Center B,288,224,59,0,5,77.78,2026-08-13
+Information Technology,South Hospital,274,212,56,1,5,77.37,2026-08-13
+Information Technology,West Hospital,174,135,35,1,3,77.59,2026-08-13
+Laboratory,Cancer Center,301,220,75,5,1,73.09,2026-08-13
+Laboratory,Central Medical Center,215,163,44,2,6,75.81,2026-08-13
+Laboratory,Children's Hospital,301,224,67,3,7,74.42,2026-08-13
+Laboratory,North Hospital,263,197,57,2,7,74.9,2026-08-13
+Laboratory,Outpatient Center A,318,239,72,1,6,75.16,2026-08-13
+Laboratory,Outpatient Center B,228,171,53,4,0,75.0,2026-08-13
+Laboratory,South Hospital,271,199,67,3,2,73.43,2026-08-13
+Laboratory,West Hospital,217,172,41,2,2,79.26,2026-08-13
+Nursing,Cancer Center,159,128,26,1,4,80.5,2026-08-13
+Nursing,Central Medical Center,159,129,29,0,1,81.13,2026-08-13
+Nursing,Children's Hospital,207,154,49,1,3,74.4,2026-08-13
+Nursing,North Hospital,194,150,39,1,4,77.32,2026-08-13
+Nursing,Outpatient Center A,213,163,45,1,4,76.53,2026-08-13
+Nursing,Outpatient Center B,252,193,55,3,1,76.59,2026-08-13
+Nursing,South Hospital,158,118,33,5,2,74.68,2026-08-13
+Nursing,West Hospital,275,216,52,3,4,78.55,2026-08-13
+Patient Access,Cancer Center,220,154,56,3,7,70.0,2026-08-13
+Patient Access,Central Medical Center,211,161,42,4,4,76.3,2026-08-13
+Patient Access,Children's Hospital,198,153,39,2,4,77.27,2026-08-13
+Patient Access,North Hospital,336,253,73,6,4,75.3,2026-08-13
+Patient Access,Outpatient Center A,192,147,41,3,1,76.56,2026-08-13
+Patient Access,Outpatient Center B,196,145,45,3,3,73.98,2026-08-13
+Patient Access,South Hospital,201,147,47,3,4,73.13,2026-08-13
+Patient Access,West Hospital,199,151,42,3,3,75.88,2026-08-13
+Pharmacy,Cancer Center,211,162,47,1,1,76.78,2026-08-13
+Pharmacy,Central Medical Center,288,225,54,3,6,78.12,2026-08-13
+Pharmacy,Children's Hospital,280,218,58,2,2,77.86,2026-08-13
+Pharmacy,North Hospital,242,179,56,3,4,73.97,2026-08-13
+Pharmacy,Outpatient Center A,236,181,47,3,5,76.69,2026-08-13
+Pharmacy,Outpatient Center B,279,214,57,2,6,76.7,2026-08-13
+Pharmacy,South Hospital,247,176,67,3,1,71.26,2026-08-13
+Pharmacy,West Hospital,245,190,51,3,1,77.55,2026-08-13
+Radiology,Cancer Center,271,213,55,0,3,78.6,2026-08-13
+Radiology,Central Medical Center,245,173,67,5,0,70.61,2026-08-13
+Radiology,Children's Hospital,237,175,54,6,2,73.84,2026-08-13
+Radiology,North Hospital,291,227,61,2,1,78.01,2026-08-13
+Radiology,Outpatient Center A,242,183,50,0,9,75.62,2026-08-13
+Radiology,Outpatient Center B,246,193,50,1,2,78.46,2026-08-13
+Radiology,South Hospital,219,168,48,1,2,76.71,2026-08-13
+Radiology,West Hospital,253,196,47,6,4,77.47,2026-08-13
+Revenue Cycle,Cancer Center,323,243,76,2,2,75.23,2026-08-13
+Revenue Cycle,Central Medical Center,278,201,69,4,4,72.3,2026-08-13
+Revenue Cycle,Children's Hospital,376,289,72,8,7,76.86,2026-08-13
+Revenue Cycle,North Hospital,302,230,64,4,4,76.16,2026-08-13
+Revenue Cycle,Outpatient Center A,275,210,57,6,2,76.36,2026-08-13
+Revenue Cycle,Outpatient Center B,275,211,57,4,3,76.73,2026-08-13
+Revenue Cycle,South Hospital,238,176,53,4,5,73.95,2026-08-13
+Revenue Cycle,West Hospital,284,213,66,1,4,75.0,2026-08-13
